@@ -2,8 +2,8 @@ class Solution {
 public:
     bool checkZeroOnes(string s) {
        int c1=0,c2=0;
-       int maxi1=INT_MIN;
-       int maxi2=INT_MIN;
+       int maxi1=0;
+       int maxi2=0;
        for(int i=0;i<s.size();i++){
            if(s[i]=='1'){
                c1++;
